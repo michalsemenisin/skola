@@ -44,14 +44,15 @@
   main {
     height: 100%;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #125B75, #1D9D7F);
-    background-size: 400% 400%;
+    background-size: 600% 600%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
     font-weight: 600;
     font-size: 1.1rem;
     line-height: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 170px;
+    padding-top: 170px;
   }
   li{
     line-height: 20px;
@@ -100,7 +101,7 @@
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 30px 45px;
+  padding: 30px 45px;
 }
 
 .footer-distributed .footer-left,
@@ -293,25 +294,17 @@ img {
   padding-bottom: 5px;
 }
 
-div.panel,div.flip
-    {
-      margin:0px;
-      padding:5px;
-      text-align:center;
-      background:#e5eecc;
-      border:solid 1px #c3c3c3;
-      width:140px;
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
     }
-    
-    div.panel
-    {
-      display:none;
-    }
-    div.question
-    {
-      float:left;
-    }
-    div.questions
-    {
-      height: 80px;
-    }
+
