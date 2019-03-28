@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>UkolPVY</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">      
+  </head>
+  <body>
+      <div class="hlava">
+        <h1>Exoplanety</h1>
+        <h4 class="text-black">Aneb planety, ktere obihaji kolem jinych hvezd, nez Slunce</h4>
+      </div>
+      <main>
+      <div class="container texty">
+        <div class="row pb-5 pt-5 pozadi">
+            <div class="col-sm-12 col-md-8 doprava">
+              <h2>Informace</h2>
+              <hr>
+              <section id="nadpis">
+              <h2 class="text-left">Co to vůbec je?</h2>
+              <p>Je to planeta, to znamená, že splňuje určité požadávky - dostatečná hmotnost, dostatečná gravitační síla.</p>
+              <p>Říká se jim také exosolární planety => Jsou mimo sluneční soustavu.</p>
+              <p>První nalezena v roku 1988.</p>
+              <p>Dnes známe kolem 3500 exoplanet.</p>
+              <p>Počet těchto planet zpřesňuje výsledek v Drakeově rovnici.</p>
+              <p>Drakeova rovnice vyjadřuje počet mimozemských civilizací.</p>
+              <h2>Metody detekce</h2>
+              <p>Zatím je možné detekovat jen planety s cca. 10ti násobnou hmotností Země.</p>
+              <p>Primární dělení: 
+                <p>  -Dynamické efekty</p>
+                <p>  -Mikročočky</p>
+                <p>  -Fotometrie</p>
+                <p>  -Ostatní</p>
+              </p>
+              <h2>Změna radiální rychlosti</h2>
+              <p>Nejvyužívanější.</p>
+              <p>Ve skupině dynamických efektů.</p>
+              <p>Nevýhoda je, že rovina oběžné dráhy se musí protínat Zemi.</p>
+              <h2>Zákryty a přechody planet.</h2>
+              <p>Dnamický efekt.</p>
+              <p>Přechodem tělesa přes hvězdu vznikne měřitelný pokled jasnosti hvězdy.</p>
+              <p>Podle amplitudy můžeme získat hmotnost a průměr tělesa.</p>
+              <p>Nevýhoda je, že pokles jasnosti musí být dostatečný.</p>
+              <h2>Poziční astronomie</h2>
+              <p>Dynamický efekt.</p>
+              <p>Z Newtonova grav. zákonu vyplývá, že planety obíhají kolem společného hmotného středu.</p>
+              <p>Z Keplerova 3. zákonu získáme vzdálenost a periodu.</p>
+              <p>Nevýhoda je, že těleso musí mít velkou hmotnost a být málo vzdálená.</p>
+              <h2>Pozorování pulsarů</h2>
+              <p>Pulsar vzniká po zhroucení supernovy, pravidelné pulsy elektromagnetického záření.</p>
+              <p>Změna polohy pulsaru oběhem planety => zpožďování, či zrychlování záblesků.</p>
+              <p>Nevýhoda je, že je to jen u pulsarů, záblesky k Zemi.</p>
+              <h2>Mikročočky</h2>
+              <p>Fotometrická metoda.</p>
+              <p>Mikročočky a gravitační čočky.</p>
+              <p>Přechodem velmi hmotného a zářícího tělesa vzniká nárust pokles jasnosti hvězdy => Pokud planeta vznikne v blízkosti tohoto tělesa, pak dojde k zvětšení jasnosti.</p>
+              <p>Vzniká Einsteinův prstenec.</p>
+              <h2>Přímé zobrazení</h2>
+              <p>Příme vyfotografování planety obíhající okolo hvězdy</p>
+              <p>Planeta je viditelná přes odražené světlo</p>
+              <p>Nevýhoda je, že je velmi špatně detekovatelné</p>
+              <h2>Další metody</h2>
+              <p>Polarimetrie - Detekování polarizace světla v atmosféře</p>
+              <p>Emise v infračerveném spektru - Při vzniku planetárních systémů - obtížně detekovatelné</p>
+              <p>Vylučovací metoda - Hledání hvězd, u kterých se planety nemohou vyskytovat</p>
+              <h2>Pojmenování</h2>
+              <p>Dle pořadí přiřazení písmen od b</p>
+              <p>A - ponecháno jako označení samotné hvězdy</p>
+              </section>
+            </div>
+            <div class="col-sm-12 col-md-4 doprava">
+              <h2>Fotky</h2>
+              <hr>
+                <div>
+                  <figure id="galerie">
+                      <img src="img/obrazek3.png" class="img-fluid">
+                      <figcaption>Vodní exoplaneta</figcaption>
+                  </figure>
+              </div>
+              <h2>Quiz</h2>
+              <h3></h3>
+              <form id="quiz-form">
+                  <label>
+                    <p>Kdy byla nalezena první exoplaneta</p>
+                      <select id="quiz-answer">
+                          <option value="1976">1976</option>
+                          <option value="1988">1988</option>
+                          <option value="1970">1970</option>
+                      </select>
+                  </label> <br>
+                  <button type="submit">Zkontroluj odpověď</button>
+              </form>
+              <div id="result"></div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-distributed bg-dark">
+
+      <div class="footer-left">
+          <p class="text-white">Michal Semenišín &copy; 2019</p>
+      </div>
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p> Opava, Česká republika</p>
+          </div>
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+420 734 593 382</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:semenisin.m@gmail.com">semenisin.m@gmail.com</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>O stránce</span>
+              Čtvrtletní projekt v 2. pololetí
+          </p>
+          <div class="footer-icons">
+              <a href="https://www.facebook.com/misa.semenisin" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://github.com/michalsemenisin" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+      <script src="js/data.js"></script>
+    </footer>
+  </body>
+</html>
